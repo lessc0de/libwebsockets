@@ -347,10 +347,10 @@ lwsl_timestamp(int level, char *p, int len);
  * lwsl_hexdump() - helper to hexdump a buffer
  *
  * \param level: one of LLL_ constants
- * \param buf: buffer start to dump
+ * \param vbuf: buffer start to dump
  * \param len: length of buffer to dump
  *
- * If \p level is visible, does a nice hexdump -C style dump of \p buf for
+ * If \p level is visible, does a nice hexdump -C style dump of \p vbuf for
  * \p len bytes.  This can be extremely convenient while debugging.
  */
 LWS_VISIBLE LWS_EXTERN void
